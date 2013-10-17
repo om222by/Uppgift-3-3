@@ -1,1 +1,184 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    padding: 10px 0;
+    color:#797167;
+    font-family: times new roman;
+}
+
+#container {
+    width: 600px;
+    margin: auto auto;
+    border: 1px solid #797167;;
+}
+
+#topbar {
+    font-size: 14px;
+    font-style: italic;
+    font-family: verdana;
+    text-align: right;
+    color: #EAE6D2;
+    background: #51483E url("pics/coffey.jpg") bottom no-repeat;
+    height: 224px;
+    padding-top: 4px;
+}
+
+#menu {
+    font-family: verdana;
+    margin: 0;
+    background: #51483E;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+
+#menu > a{
+    display: none;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #847C73;
+    background: #797167;
+    padding: 6px 0px;
+}
+
+#menu ul li a {
+    margin: 0;
+    padding: 6px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu .active {
+    color: #797167;
+    background: #EAE6D2;
+    border-bottom: 1px solid #EAE6D2;
+}
+
+#menu .active a {
+    color:#797167;
+}
+
+#menu a:hover {
+    background: #9B8F83;
+}
+
+#content {
+    background: #EAE6D2;
+    padding-left: 10px;
+    font-family: verdana;
+}
+
+#maincontent {
+    background: #EAE6D2;
+    font-size: 15px;
+    line-height: 20px;
+    float: left;
+    width: 340px;
+    margin-top: 20px;
+    padding: 0 10px 0 0;
+    border-right: dashed 1px #797167;
+}
+
+#maincontent > img {
+    float: left;
+    padding: 0 5px 0 0;
+}
+
+h1 {
+    line-height: normal;
+    font-family: normal;
+    color:#797167;
+    font-size: 30px;
+    padding: 0 10px 10px 0px;
+}
+
+#subcontent {
+    line-height: 20px;
+    font-family: verdana;
+    font-size: 11px;
+    float: right;
+    width: 220px;
+    padding: 5px 5px;
+    margin-top: 25px;
+    background: #EAE6D2;
+}
+
+#subcontent h1 {
+    color:  #51483E;
+    line-height: normal;
+    font-size: 20px;
+    padding: 0 0 10px 0;
+}
+
+#subcontent h2 {
+    padding-top: 20px;
+    font-size: 15px;
+    color:  #51483E;
+}
+
+#subcontent a {
+    color:  #51483E;
+    font-size: 15px;
+}
+
+#bottomcontent {
+    clear: both;
+    font-size: 80%;
+    font-family: normal;
+    font-style: italic;
+    padding: 5px 0;
+}
