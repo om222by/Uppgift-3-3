@@ -83,12 +83,12 @@ body {
 }
 
 #menu ul {
-    margin: 0;
+    margin: 0 11px;
     padding: 0;
 }
 
 #menu ul li{
-    margin: 0;
+    margin: 0 -3px;
     display: inline-block;
     border: 1px solid #847C73;
     background: #797167;
@@ -166,13 +166,13 @@ h1 {
 
 #subcontent h2 {
     padding-top: 20px;
-    font-size: 15px;
+    font-size: 13px;
     color:  #51483E;
 }
 
 #subcontent a {
     color:  #51483E;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #bottomcontent {
